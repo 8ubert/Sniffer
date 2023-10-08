@@ -43,8 +43,6 @@ def stop_interception():
 
     if sniffer_socket:
         sniffer_socket = None
-        
-        
     
     return jsonify({'message': 'Interceptação parada.'})
 
